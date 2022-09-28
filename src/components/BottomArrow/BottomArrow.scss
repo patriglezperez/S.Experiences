@@ -1,0 +1,13 @@
+.BottomArrow {
+  font-size: 20px;
+  line-height: 21px;
+  align-self: center;
+  position: fixed;
+  z-index: 99;
+  left: 734px;
+  top: 700px;
+
+  @media (max-width: 428px) {
+    display: none;
+  }
+}
