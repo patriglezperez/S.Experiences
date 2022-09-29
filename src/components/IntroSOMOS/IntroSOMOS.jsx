@@ -1,19 +1,18 @@
-import { useNavigate } from "react-router-dom";
 import React from "react";
+import BottomArrow from "../BottomArrow/BottomArrow";
 
 function IntroSOMOS() {
-  const navigate = useNavigate();
-
   return (
     <div
       className="Intro--SOMOS--background"
       onClick={() => {
-        navigate(`/Home`, { state: true });
+        console.log("Funciona!!");
       }}
     >
       <p className="IntroSOMOS--sentence">
         Somos todo lo que está a punto de suceder
       </p>
+      <BottomArrow />
     </div>
   );
 }

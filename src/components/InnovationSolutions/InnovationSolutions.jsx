@@ -2,6 +2,7 @@
 import Phone from "../../assets/img/Solution1_fulI.png";
 import Bank from "../../assets/img/Solution2.png";
 import React, { useState } from "react";
+import BottomArrow from "../BottomArrow/BottomArrow";
 
 function InnovationSolutions() {
   const [blueColor, setBlueColor] = useState(true);
@@ -109,6 +110,7 @@ function InnovationSolutions() {
           </figure>
         </div>
       </section>
+      <BottomArrow />
     </div>
   );
 }

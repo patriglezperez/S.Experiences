@@ -2,10 +2,13 @@
   font-size: 20px;
   line-height: 21px;
   align-self: center;
-  position: fixed;
-  z-index: 99;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0px;
   left: 734px;
   top: 700px;
+  z-index: 3;
 
   @media (max-width: 428px) {
     display: none;

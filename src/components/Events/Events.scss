@@ -10,6 +10,8 @@
   height: 100vh;
   display: flex;
   flex-direction: row;
+  position: relative;
+  scroll-snap-align: center;
 
   @media (max-width: 428px) {
     flex-direction: column;

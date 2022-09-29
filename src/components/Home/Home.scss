@@ -1,9 +1,13 @@
 .Home--container {
+  width: 100%;
+  position: relative;
   height: 100vh;
+  margin: 0 auto;
   background-image: url("../../assets/img/backgroundImageHome.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  scroll-snap-align: center;
 }
 
 .Home--sentence {
