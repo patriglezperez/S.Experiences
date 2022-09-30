@@ -15,7 +15,7 @@
   line-height: 45px;
   letter-spacing: 0em;
   text-align: center;
-
+  scroll-snap-align: center;
   @media (max-width: 428px) {
     flex-wrap: wrap;
     font-size: 24px;
