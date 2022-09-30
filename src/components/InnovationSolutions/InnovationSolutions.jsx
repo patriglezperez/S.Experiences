@@ -110,7 +110,6 @@ function InnovationSolutions() {
           </figure>
         </div>
       </section>
-      <BottomArrow />
     </div>
   );
 }

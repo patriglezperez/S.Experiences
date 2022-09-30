@@ -1,6 +1,7 @@
 import React from "react";
 import BottomArrow from "../BottomArrow/BottomArrow";
 import HeaderMenu from "../HeaderMenu/HeaderMenu";
+
 function Home(scrollTo, goToSectionRef) {
   return (
     <>

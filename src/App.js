@@ -5,7 +5,7 @@ import Home from "./components/Home/Home";
 import ElegantEvent from "./components/Events/ElegantEvents";
 import SpectacularEvents from "./components/Events/SpectacularEvents";
 import CorporateEvent from "./components/Events/CorporateEvents";
-import Proyects from "./components/Events/Proyects/Proyects";
+import Projects from "./components/Events/Projects/Projects";
 import BottomArrow from "./components/BottomArrow/BottomArrow";
 import InnovationSolutions from "./components/InnovationSolutions/InnovationSolutions";
 import "./styles.scss";
